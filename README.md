@@ -11,6 +11,8 @@ Requirements:
 - Hot air rework station to remove the Tuya microcontroller
 - A pullup resistor between TX and VCC of the ESP (i.e. 4.7K)
 - An ESP programmer (i.e. CP2102)
+- Home Assistant with ESPHome integration
+- Standalone ESPHome for flashing (if you prefer the commmand line)
 
 Steps:
 1. First open up the back of the dehumidifier by unscrewing all Phillips screws.
