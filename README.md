@@ -9,7 +9,7 @@ This will remove the Tuya chip and replace it with an ESP 07 (same pin layout) m
 Requirements:
 - An ESP 07 
 - Hot air rework station to remove the Tuya microcontroller
-- A pullup resistor between TX and VCC of the ESP (i.e. 1.5K)
+- A pullup resistor between TX and VDD of the ESP (i.e. 1.5K)
 - An ESP programmer (i.e. CP2102)
 - Home Assistant with ESPHome integration
 - Standalone ESPHome for flashing (if you prefer the commmand line)
