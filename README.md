@@ -2,7 +2,7 @@
 
 A hardware and software manual to transform the Aktobis WDH-310EKW dehumidifier from Tuya to an ESPHome device
 
-This will remove the Tuya chip and replace it with an ESP 07, which has the same pin layout.
+This will remove the Tuya chip and replace it with an ESP 07 (same pin layout) making it a full blown ESPHome device to use in Home Assistant and removing the need for Tuya cloud.
 
 Requirements:
 - An ESP 07 
@@ -10,6 +10,7 @@ Requirements:
 - A pullup resistor between TX and VCC of the ESP (i.e. 4.7K)
 
 
+Steps:
 1. First open up the back of the dehumidifier by unscrewing all Phillips screws.
 2. Locate the PCB holding the Tuya chip on the left side of the opened dehumidifier and remove it by opening the plastic cover and unplugging the 4 line connector.
 3. Flash your ESP 07 with a programmer (i.e. CP2102) and the code from this file:
