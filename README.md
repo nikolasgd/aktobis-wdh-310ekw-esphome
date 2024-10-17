@@ -1,4 +1,4 @@
-# Aktobis WDH-310EKW for ESPHome
+# Aktobis WDH-310EKW dehumidifier for ESPHome
 
 A hardware and software manual to transform the Aktobis WDH-310EKW dehumidifier from Tuya into an ESPHome device.
 
